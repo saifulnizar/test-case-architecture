@@ -1,0 +1,22 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.test
+coverage.out
+coverage.html
+
+# Generated processing data & reports
+/data/
+report.json
+
+# OS & IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,10 @@
+# Test Case, Knowledge & Study Notes
+*.pdf
+study/
+knowledge/
+
+# OS & IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp

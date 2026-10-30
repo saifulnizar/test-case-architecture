@@ -1,0 +1,20 @@
+services:
+  csvproc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command:
+      - "-input"
+      - "/app/testdata"
+      - "-workers"
+      - "4"
+      - "-batch-size"
+      - "500"
+      - "-max-readers"
+      - "4"
+      - "-progress-interval"
+      - "500ms"
+      - "-output"
+      - "/app/output/report.json"
+    volumes:
+      - ./output:/app/output
